@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="../introducao.html">Página Principal</a></li>
+        <li><a href="tabelas.html">Tabelas</a></li>
+    </ul>
+    <h1>Usuários</h1>
+    Nome: <input type="text" name="nome" id="nome"><br>
+    Telefone: <input type="text" name="telefone" id="telefone"><br>
+    E-mail: <input type="email" name="email" id="email"><br>
+    Senha: <input type="password" name="senha" id="senha"><br>
+    Sexo: <input type="radio" name="masculino" id="masculino"> Masculino <input type="radio" name="feminino"
+        id="feminino"> feminino <br>
+    UF: <select name="UF" id="UF" style="width: 80px;">
+        <option value="#">Selecione</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="GO">Goiás</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="RN">Rio Grande Do Norte</option>
+        <option value="SP">São Paulo</option>
+    </select><br>
+    Cidade: <select name="cidade" id="cidade" style="width: 80px;">
+        <option value="#">Selecione</option>
+        <option value="CEI">Ceilândia</option>
+        <option value="TAG">Taguatinga</option>
+        <option value="SO">SOBRADINHO</option>
+        <option value="PP">Plano Piloto</option>
+        <option value="VP">Vicente Pires</option>
+    </select><br>
+    <form style="width: 50%;">
+        <fieldset>
+            <legend>Hobbies</legend>
+            <input type="checkbox" id="musica" name="musica">
+            <label for="musica">Música</label><br>
+            <input type="checkbox" id="futebol" name="futebol">
+            <label for="futebol">Futebol</label><br>
+            <input type="checkbox" id="artes" name="artes" value="artes">
+            <label for="artes">Artes</label> <br>
+            <input type="checkbox" id="jogos" name="jogos" value="jogos">
+            <label for="jogos">Jogos</label> <br>
+            <input type="checkbox" id="cozinhar" name="cozinhar" value="cozinhar">
+            <label for="vehicle3">Cozinhar</label>
+        </fieldset>
+    </form>
+    Observação<textarea name="message" style="width:250px; height:70px; margin-top: 15px;"></textarea><br>
+    <input type="button" value="Salvar" style="margin-right: 3px;"><input type="button" value="Limpar" style="margin-right: 3px;"><input type="button" value="Voltar" style="margin-right: 3px;">
+</body>
+
+</html>
