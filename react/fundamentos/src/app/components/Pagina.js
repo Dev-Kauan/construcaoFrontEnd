@@ -13,6 +13,7 @@ export default function Pagina(props) {
                         <Nav.Link href="/objeto">Objeto</Nav.Link>
                         <Nav.Link href="/objeto">Carros</Nav.Link>
                         <Nav.Link href="/nomes">Nomes</Nav.Link>
+                        <Nav.Link href="/calculo">Calculo</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
