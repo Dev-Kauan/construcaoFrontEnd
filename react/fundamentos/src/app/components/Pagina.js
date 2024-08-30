@@ -14,6 +14,7 @@ export default function Pagina(props) {
                         <Nav.Link href="/objeto">Carros</Nav.Link>
                         <Nav.Link href="/nomes">Nomes</Nav.Link>
                         <Nav.Link href="/calculo">Calculo</Nav.Link>
+                        <Nav.Link href="/disney">Disney</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
