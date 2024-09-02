@@ -4,8 +4,6 @@ import Table from 'react-bootstrap/Table';
 import Pagina from "@/app/components/Pagina";
 import { useEffect, useState } from "react";
 import apiDisney from "@/services/apiDisney";
-import Link from 'next/link';
-
 
 export default function Objetos() {
 
@@ -23,7 +21,6 @@ export default function Objetos() {
 
     return (
         <Pagina titulo="Disney Table">
-            <Link href="/disney">Voltar para Disney</Link>
             <Table striped bordered hover>
                 <thead>
                     <tr>
