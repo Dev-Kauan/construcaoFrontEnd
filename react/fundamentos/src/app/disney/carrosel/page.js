@@ -4,8 +4,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Pagina from "@/app/components/Pagina";
 import { useEffect, useState } from "react";
 import apiDisney from "@/services/apiDisney";
-import Link from 'next/link';
-
 
 export default function Objetos() {
 
@@ -19,10 +17,9 @@ export default function Objetos() {
 
     return (
         <Pagina titulo="Disney Carrossel">
-            <Link href="/disney">Voltar para Disney</Link>
             <Carousel>
                 {personagens.map(item => (
-                    <Carousel.Item>
+                    <Carousel.Item key={item._id}>{}
                     <img src={item.imageUrl} width="100%" height={700}/>
                     <Carousel.Caption>
                         <h3>{item.name}</h3>

@@ -13,6 +13,10 @@ export default function Objetos() {
 
     useEffect(() => {
         apiDisney.get('character').then(resultado => {
+            const res = resultado.data.data
+            res.sort(function(a, b){
+                return a.name < b.name
+            })
             setPersonagens(resultado.data.data)
         })
     }, [])

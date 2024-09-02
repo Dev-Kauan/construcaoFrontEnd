@@ -2,7 +2,6 @@
 
 import Pagina from "@/app/components/Pagina";
 import apiDisney from "@/services/apiDisney";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function Disney() {
