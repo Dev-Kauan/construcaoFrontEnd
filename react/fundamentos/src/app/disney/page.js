@@ -17,9 +17,6 @@ export default function Disney() {
 
     return (
         <Pagina titulo="Disney">
-            <Link href="/disney/cards">Ir para Disney Cards</Link><br/>
-            <Link href="/disney/tabela">Ir para Disney Table</Link><br/>
-            <Link href="/disney/carrosel">Ir para Disney Carrosel</Link>
             <br/>
             <hr/>
             {personagens.map(item => (
