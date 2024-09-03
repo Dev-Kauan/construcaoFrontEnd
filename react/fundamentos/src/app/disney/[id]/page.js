@@ -53,7 +53,7 @@ export default function Page({ params }) {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col md={6}>
+                        <Col md={6} className="mt-3">
                             <Card border="warning">
                                 <Card.Header className="bg-warning">Séries</Card.Header>
                                 <Card.Body>
